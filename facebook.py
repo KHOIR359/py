@@ -6,7 +6,6 @@ import os
 
 
 os.system('clear')
-os.system('color 2')
 
 print('''
 
