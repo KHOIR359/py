@@ -42,7 +42,7 @@ def animate():
 +----------+----------------------------+
 | Password  | testnantigantipassword    |
 +----------+----------------------------+
-| Email     | abdulkhoir53@gmail.com    |
+| Email     | khoir359@gmail.com        |
 +----------+----------------------------+
 | Name      | Ini Khoir                 |
 +----------+----------------------------+
