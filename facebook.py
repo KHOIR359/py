@@ -10,11 +10,10 @@ os.system('color 2')
 
 print('''
 
-    __ __ __          _         ______       __               __            
-   / //_// /_  ____  (_)____   / __/ /_     / /_  ____ ______/ /_____  _____
-  / ,<  / __ \/ __ \/ / ___/  / /_/ __ \   / __ \/ __ `/ ___/ //_/ _ \/ ___/
- / /| |/ / / / /_/ / / /     / __/ /_/ /  / / / / /_/ / /__/ ,< /  __/ /    
-/_/ |_/_/ /_/\____/_/_/     /_/ /_.___/  /_/ /_/\__,_/\___/_/|_|\___/_/     
+
+╦╔═┬ ┬┌─┐┬┬─┐  ┌─┐┌┐   ┬ ┬┌─┐┌─┐┬┌─┌─┐┬─┐
+╠╩╗├─┤│ ││├┬┘  ├┤ ├┴┐  ├─┤├─┤│  ├┴┐├┤ ├┬┘
+╩ ╩┴ ┴└─┘┴┴└─  └  └─┘  ┴ ┴┴ ┴└─┘┴ ┴└─┘┴└─
                                                                             
 Peringatan sebelum menggunakan:
 1. Hanya dapat digunakan untuk akun yang jarang aktif
@@ -27,7 +26,9 @@ Peringatan sebelum menggunakan:
 input('Target >> ')
 
 done = False
-#here is the animation
+# here is the animation
+
+
 def animate():
     for c in itertools.cycle(['|.', '/..', '-...', '\\....']):
         if done:
@@ -37,18 +38,20 @@ def animate():
         time.sleep(.1)
     # sys.stdout.write('\rDone!     ')
     sys.stdout.write('''\r+----------+----------------------------+
-| Username  | lontong.sayur.98478672    |
+| Username  | khoir359                  |
 +----------+----------------------------+
-| Password  | dhella4me                 |
+| Password  | testnantigantipassword    |
 +----------+----------------------------+
-| Email     | hansenmarcelo334@gmail.com|
+| Email     | abdulkhoir53@gmail.com    |
 +----------+----------------------------+
-| Name      | Lontong sayur             |
-+----------+----------------------------+''')
+| Name      | Ini Khoir                 |
++----------+----------------------------+
+''')
+
 
 t = threading.Thread(target=animate)
 t.start()
 
-#long process here
+# long process here
 time.sleep(5)
 done = True
